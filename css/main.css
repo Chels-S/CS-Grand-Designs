@@ -1,0 +1,173 @@
+/*** BASE STYLES ***/
+body {
+  font-family: 'Source Code Pro', monospace;
+  color: #ffffff;
+  background-color: #1f202b;
+}
+
+
+/*** GRID ***/
+.full-width {
+  width:1400px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 700px;
+  float: left;
+}
+
+.third-width {
+  width: 466px;
+  float: left;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+
+/*** HEADER ***/
+header {
+  height: 50px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+nav ul li a {
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px;
+}
+
+/*** TAGLINE ***/
+#tagline {
+  height: 600px;
+  background: url('../img/hero-background.png');
+  background-size: cover;
+}
+
+
+#tagline h1 {
+font-size: 55px;
+padding: 200px;
+}
+
+#tagline h1 span {
+color: #fa0075;
+}
+
+
+/*** PORTFOLIO ***/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 15px;
+}
+
+#portfolio {
+  padding-top: 30px;
+}
+
+#portfolio h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #fa0075;
+
+}
+
+#portfolio h3 a{
+  font-size: 23px;
+  color: #ffffff;
+}
+
+#portfolio p {
+  padding-top: 30px;
+  line-height: 28px;
+}
+
+
+
+#portfolio a:hover {
+  color: lightblue;
+}
+
+/*** ABOUT ***/
+#about {
+  height: 700px;
+  background: url('../img/about-me.png');
+  background-size: cover;
+}
+
+#about h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 25px;
+  color: #fa0075;
+}
+
+#about h4 {
+  color: #000000;
+  padding-top: 5px;
+}
+
+#about p {
+  color: #000000;
+  padding: 10px 150px 30px 0px;
+}
+
+#about img#profile-img {
+  padding: 10px 40px 40px 65px;
+}
+
+
+
+
+/*** CONTACT ***/
+#contact {
+  padding-top: 100px;
+}
+#contact h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #fa0075;
+}
+
+#contact h4 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#contact p {
+  text-align: center;
+}
+
+#contact ul li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 55px;
+}
+
+
+
+/*** FOOTER ***/
+footer {
+  height: 200px;
+  text-align: center;
+  padding-top: 200px;
+}
